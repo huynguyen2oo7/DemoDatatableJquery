@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Datatables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+    <!-- Bootstrap 4 -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></code></pre>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./demo.css">
+    <title>Demo Jquery Datatable</title>
+</head>
+<body>
+    <div class="container " >
+    <h1>Demo Jquery Datatable </h1>
+    <table id="table1">
+        <thead>
+            <tr>
+                <th>TÊN</th>
+                <th>TUỔI</th>
+                <th>GIỚI TÍNH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nguyễn Thanh Huy</td>
+                <td>22</td>
+                <td>Nam</td>
+            </tr>
+            <tr>
+                <td>Phạm Tấn Đạt</td>
+                <td>22</td>
+                <td>Nam</td>
+            </tr>
+            <tr>
+                <td>Cao Nhật Duy</td>
+                <td>22</td>
+                <td>Nam</td>
+
+            </tr>
+            <tr>
+                <td>Nguyễn Long Đức</td>
+                <td>22</td>
+                <td>Nam</td>
+
+            </tr>
+            <tr>
+                <td>Bùi Quốc Huy</td>
+                <td>22</td>
+                <td>Nữ</td>
+
+            </tr>
+            <tr>
+                <td>Nguyễn Văn A</td>
+                <td>19</td>
+                <td>Nam</td>
+
+            </tr>
+            <tr>
+                <td>Nguyễn Thị B</td>
+                <td>30</td>
+                <td>Nữ</td>
+
+            </tr>
+            <tr>
+                <td>Nguyễn Văn C</td>
+                <td>36</td>
+                <td>Nam</td>
+
+            </tr>
+            <tr>
+                <td>Nguyễn Thị D</td>
+                <td>55</td>
+                <td>Nữ</td>
+                
+            </tr>
+            <tr>
+                <td>Nguyễn Văn E</td>
+                <td>36</td>
+                <td>Nam</td>
+            </tr>
+            <tr>
+                <td>Nguyễn Văn F</td>
+                <td>39</td>
+                <td>Nam</td>
+            </tr>
+            <tr>
+                <td>Nguyễn Thị J</td>
+                <td>40</td>
+                <td>Nữ</td>
+            </tr>
+            <tr>
+                <td>Nguyễn Văn F</td>
+                <td>13</td>
+                <td>Nam</td>
+            </tr>
+            <tr>
+                <td>Nguyễn Thị Z</td>
+                <td>40</td>
+                <td>Nữ</td>
+            </tr>
+            <tr>
+                <td>Nguyễn Văn K</td>
+                <td>31</td>
+                <td>Nam</td>
+            </tr>
+            <tr>
+                <td>Nguyễn Thị L</td>
+                <td>23</td>
+                <td>Nữ</td>
+            </tr>
+            <tr>
+                <td>Nguyễn Văn P</td>
+                <td>59</td>
+                <td>Nam</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+    
+</body>
+
+<!-- Nhúng jquery và datatable -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#table1').DataTable();
+    });
+</script>
+</html>
